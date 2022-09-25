@@ -18,3 +18,66 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  display: block;
+}
+
+h2,ul,p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.country-info__title  {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 10;
+}
+
+.country-info__name {
+  font: 700 32px/40px BlinkMacSystemFont,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-weight: 700;
+  margin-left: 10;
+}
+
+.country-info__feature {
+  font-weight: 600;
+}
+
+.country-info {
+    font-size: 20;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.country-list__item {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 10;
+font-size: 18;
+
+}
+
+.country-list__flag {
+  margin-left: 0;
+}
+
+.country-list__name {
+  font-weight: 600;
+  margin-left: 10;
+}
+
